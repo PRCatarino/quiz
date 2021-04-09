@@ -4,21 +4,21 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Quiz</title>
-            <link rel="stylesheet" href="reset.css">
-            <link href="style.css" rel="stylesheet">
+            <link rel="stylesheet" href="/css/reset.css">
+            <link href="/css/style.css" rel="stylesheet">
     </head>
 <body>
     <div class="corpo">
-    <img src="logo.png" class="logo">
+    <img src="/imgs/logo.png" class="logo">
         <div class="caixa">
             <DIV class="div-titulo">
                 <h1>Marvel Studios</h1>
             </DIV>
             <Div class="content">
                 <p>Teste os seus conhecimentos sobre o universoMarvel e divirta-se criando o seu AluraQuiz!</p>
-                <input type="text"class="nome" required placeholder="Diz ae seu nome para jogar ;)">
-                <button class="jogar">
-                    JOGAR
+                <input type="text"class="nome" onkeyup="mudaTextoV2(this)" required placeholder="Diz ae seu nome para jogar ;)">
+                <button onclick="jogar()"  class="jogar" id="botaoJogar">
+                   Vamos Jogar
                 </button>
             </Div>
             
@@ -32,9 +32,9 @@
             </p>
             <a href="https://github.com/PRCatarino/quiz" CLASS="link">
                 <p>Meu quiz</p>
-            </a>
-  
+            </a> 
         </div>
+ <script src="/js/index.js"></script>
 </div>
 </body>
 </html>

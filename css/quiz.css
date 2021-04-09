@@ -1,5 +1,5 @@
 body {
-    background-image: url('bakground.jpg');
+    background-image: url('/imgs/bakground.jpg');
     background-size: contain;
     background-position:  right;
     background-repeat: no-repeat;
@@ -13,25 +13,30 @@ body {
     margin-left: 7%;
     MARGIN-TOP: 21PX;
     animation-name: entrada;
-    animation-duration: 2s;   
+    animation-duration: 2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .logo {
     width: 100px;
 }
 
 .caixa {
-    background-color: #431B20;
-    height: 485px;
+    background-color:#68050D;
+    min-height: 485px;
     border-radius: 1%;
-    border: 1px solid #b4241a;
+    border: 1px solid #720c05;
     text-align: left;
     margin-top: 20px;
 }    
- .div-titulo{
+ .divTitulo{
     padding: 3%;
     background-color: #b4241a;  
     font-family:'Lato', sans-serif;
     font-size: 16px;
+    padding: 13px 24px;
+    background-color: #b4241a;
 }
 .fundocaixa{
     width: 100%;
@@ -39,20 +44,32 @@ body {
 }
 .pergunta{
     text-align: baseline;
-    padding: 10px 20px;
+    padding: 2px 20px;
     font-family:'Lato', sans-serif;
     font-size: 16px;
 }
 .pergunta p{
-    font-size: 12px;
-    margin-top: 10px;
+    font-size: 15px;
+    margin-top: 13px;
     font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    background: #b6150a;
+    padding: 7px;
+    border-radius: 3px;
 }
+.pergunta p:checked ~ .box{
+    background-color: #272322bd;
+}
+
+
+
 .botoes{
      display:flex;
      justify-content: space-between;
      flex-direction: column;
      margin-top: 15px;
+     display: flex;
+     flex-direction: column;
      
 }
 button{
@@ -74,10 +91,15 @@ button{
     font-family: 'Lato', sans-serif;
 }
 
+.mudei{
+    background:green !important;
+}
+
 link:hover{
 }
 @keyframes entrada {
     from   {opacity: 0%; margin-left:-10px; margin-top:-20px;}
     to  {opacity: 100%; margin-left:7%; margin-top:21px;}
     }  
+
 

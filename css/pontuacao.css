@@ -1,0 +1,51 @@
+body{
+    background-image: url(/imgs/bakground.jpg);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #000;
+    COLOR: #fff;
+    overflow: hidden;
+    position: relative;
+    font-family:'Lato', sans-serif;
+}
+
+.corpo{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    background-color: #B4241A;
+    width: 274px;
+    margin: 54px 100px;
+    height: 488px;
+    border-radius: 4px
+}
+.fundoCaixa{
+    width: 270px;
+    margin-left: 2px;
+}
+
+.divTitulo{
+    padding: 9px 19px 17px;
+    font-size: 18px;
+    margin: 5px 7px 0px;
+}
+
+.mostraPontuacao{
+    margin: 70px 79px 50px;
+    font-size: 19px;
+
+}
+
+.logo{
+    width: 100px;
+    margin: 16px 174px -24px;
+}
+
+.caixaPontuacao{
+    background:#68050D;
+    margin-top: -3px;
+    height: 100%;
+    border-radius: 2px;
+}
+    
