@@ -3,7 +3,7 @@ function jogar(){
         alert("Nome Obgrigatorio")
         return
     }
-    window.location = "/quiz"    
+    window.location = "/quiz/quiz"    
 }
 
 function mudaTextoV2(elemento){

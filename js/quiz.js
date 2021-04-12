@@ -29,7 +29,7 @@ function confirma(){
     respostaSelecionada = -1
 
     if(numeroPergunta == listaPerguntas.length){
-        window.location = "/pontuacao"
+        window.location = "/quiz/pontuacao"
     }else{
         preenchePerguntaTela(numeroPergunta++)
     }
